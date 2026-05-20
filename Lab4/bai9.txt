@@ -1,0 +1,12 @@
+=== PHÂN NHÓM KHÁCH HÀNG ===
+
+Tiêu chí phân nhóm:
+  One-time   : 1 đơn hàng
+  Occasional : 2-3 đơn hàng
+  Loyal      : >= 4 đơn hàng
+
+Nhóm              Số khách   Đơn TB   Giá trị TB  Tần suất (ngày)
+-----------------------------------------------------------------
+One-time            93,099     1.00       147.35             0.00
+Occasional           2,948     2.07       129.17            41.14
+Loyal                   49     4.96       131.59            44.42

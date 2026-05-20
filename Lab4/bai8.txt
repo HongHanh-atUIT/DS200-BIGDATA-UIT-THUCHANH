@@ -1,0 +1,13 @@
+=== THỐNG KÊ HIỆU SUẤT GIAO HÀNG ===
+
+--- Tổng quan ---
+Tổng đơn hàng:           96,476
+Hiệu số ngày TB:         -11.91
+Đúng/Sớm hạn:            89,941
+Trễ hạn:                  6,535
+
+--- Theo trạng thái ---
+Trạng thái               Số đơn  Hiệu số TB (ngày)
+--------------------------------------------------
+Trễ hạn                   6,535              10.64
+Đúng/Sớm hạn             89,941             -13.55

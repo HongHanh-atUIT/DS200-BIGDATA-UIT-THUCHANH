@@ -1,0 +1,58 @@
+==================================================
+  Orders (99441 rows)
+==================================================
+  Order_ID                                 StringType()         (nullable)
+  Customer_Trx_ID                          StringType()         (nullable)
+  Order_Status                             StringType()         (nullable)
+  Order_Purchase_Timestamp                 TimestampType()      (nullable)
+  Order_Approved_At                        TimestampType()      (nullable)
+  Order_Delivered_Carrier_Date             TimestampType()      (nullable)
+  Order_Delivered_Customer_Date            TimestampType()      (nullable)
+  Order_Estimated_Delivery_Date            TimestampType()      (nullable)
+
+==================================================
+  Customer_List (102727 rows)
+==================================================
+  Customer_Trx_ID                          StringType()         (nullable)
+  Subscriber_ID                            StringType()         (nullable)
+  Subscribe_Date                           DateType()           (nullable)
+  First_Order_Date                         DateType()           (nullable)
+  Customer_Postal_Code                     StringType()         (nullable)
+  Customer_City                            StringType()         (nullable)
+  Customer_Country                         StringType()         (nullable)
+  Customer_Country_Code                    StringType()         (nullable)
+  Age                                      IntegerType()        (nullable)
+  Gender                                   StringType()         (nullable)
+
+==================================================
+  Order_Items (112650 rows)
+==================================================
+  Order_ID                                 StringType()         (nullable)
+  Order_Item_ID                            IntegerType()        (nullable)
+  Product_ID                               StringType()         (nullable)
+  Seller_ID                                StringType()         (nullable)
+  Shipping_Limit_Date                      TimestampType()      (nullable)
+  Price                                    DoubleType()         (nullable)
+  Freight_Value                            DoubleType()         (nullable)
+
+==================================================
+  Products (32951 rows)
+==================================================
+  Product_ID                               StringType()         (nullable)
+  Product_Category_Name                    StringType()         (nullable)
+  Product_Weight_Gr                        IntegerType()        (nullable)
+  Product_Length_Cm                        IntegerType()        (nullable)
+  Product_Height_Cm                        IntegerType()        (nullable)
+  Product_Width_Cm                         IntegerType()        (nullable)
+
+==================================================
+  Order_Reviews (99270 rows)
+==================================================
+  Review_ID                                StringType()         (nullable)
+  Order_ID                                 StringType()         (nullable)
+  Review_Score                             StringType()         (nullable)
+  Review_Comment_Title_En                  StringType()         (nullable)
+  Review_Comment_Message_En                StringType()         (nullable)
+  Review_Creation_Date                     StringType()         (nullable)
+  Review_Answer_Timestamp                  TimestampType()      (nullable)
+
